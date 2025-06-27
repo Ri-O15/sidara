@@ -1,0 +1,53 @@
+body {
+    background-color:rgb(233, 233, 233);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #f8f9fa;
+      padding: 15px 0;
+      z-index: 1000;
+      border-bottom: 2px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+  }
+  
+  .bg-container {
+      width: 50px;
+      height: 50px;
+      background-image: url('../assets/logo.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  
+  header h2 {
+      margin: 0;
+      font-size: 1.5rem;
+  }
+  
+  .form-container {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #f8f9fa;
+    /* border-radius: 8px; */
+    margin-top: 80px;
+  }
+  .btn-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star{
+    color: red;
+  }

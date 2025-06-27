@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100vh;
+    font-family: "Times New Roman", Times, serif;
+    background: url('../assets/pa.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+
+  .btn {
+    font-family: "Times New Roman", Times, serif;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 22px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 200px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn:hover {
+    background-color: #808080;
+    color: black;
+  }
+  .logout-container {
+    margin-top: auto;
+    align-self: flex-end;
+  }
+
+  .logout-container a {
+    font-size: 16px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+  }
+
+  .logout-container a:hover {
+    text-decoration: underline;
+  }

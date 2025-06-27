@@ -1,0 +1,204 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    /* background-image: url('asse/bg.jpg'); Ganti dengan path gambar */
+    background-size: cover; /* Agar gambar menyesuaikan ukuran layar */
+    background-position: center; /* Agar gambar berada di tengah */
+    background-repeat: no-repeat; 
+}
+.table-container {
+    width: 96%;
+    margin: auto;
+    margin-bottom: 5px;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    background: white;
+    max-height: 555px;
+    overflow-y: auto;
+    position: relative;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+th{ 
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+thead {
+    background-color: #009578;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.pagination {
+    display: flex;
+    justify-content: flex-end; /* Tetap di kanan */
+    align-items: center;
+    margin-top: 7px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 14px; 
+    margin: 0 2px; 
+    font-size: 14px; 
+    text-decoration: none;
+    border: 1px solid #009578;
+    color: #333;
+    background: #f1f1f1;
+    border-radius: 3px; 
+    position: relative;
+    right: 30px; 
+}
+
+.pagination a.active {
+    background: #808080;
+    color: white;
+}
+
+.pagination a:hover {
+    background: #ddd;
+}
+
+.search-container {
+    margin: 10px auto;
+    width: 50%;
+}
+input[type="text"], select {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: left;
+}
+.green-button {
+    background-color: #28a745; 
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: white;
+    }
+.grey-button {
+    background-color: #808080; 
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    /* border-radius: 5px; */
+}
+.detail-button {
+    background-color: #ef476f; 
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* gap: 1px; */
+    color: white;
+}
+.edit-button {
+    background-color: #ffd166; 
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: white;
+}
+.delete-button {
+    background-color: #06d6a0; 
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    /* gap: 1px; */
+    color: white;
+}        
+.print-button {
+    background-color: #118ab2; 
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: white;
+}
+.printer-button {
+    background-color: #005ce6; 
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 96%; 
+    max-width: 100%;
+    gap: 20px;
+    padding-top: 1%;
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.right-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+select, input {
+    padding: 5px;
+    font-size: 14px;
+}
+.text-red{
+    color: red;
+    font-weight: bold;
+}
+.header-container {
+display: flex;
+align-items: center;
+position: absolute;
+top: 2%;
+left: 2%;
+margin-bottom: 10%;
+}
+
+.bg-container {
+    width: 60px; 
+    height: 60px; 
+    background-image: url('../assets/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.header-title {
+    /* font-weight: bold; */
+    font-size: 22px;
+    margin-left: 10px; /* Jarak kecil antara logo dan teks */
+    white-space: nowrap;
+}
